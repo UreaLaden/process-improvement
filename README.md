@@ -24,3 +24,9 @@ Histogram with 5 bars
 ```
 
 ![C Chart](images/c_chart.png)
+
+```
+C Chart with Random Values highlighting how 
+a combination of NumPy and the statistics
+module can be used to visualize a given dataset
+```
