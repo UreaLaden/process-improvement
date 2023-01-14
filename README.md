@@ -8,7 +8,7 @@ In this module, we discovered how to use basic statistics and begin preparing ou
 libraries used for mathematical and numerical analysis. NumPy contains array data and basic operations such as sorting, indexing, and so forth, whereas SciPy consists of 
 all the numerical code. SciPy has a number of subpackages for various scientific computations.
 
-Module 1: Uniform Data Distribution
+## Module 1: Uniform Data Distribution
 
 ![Data Distribution](images/data_distribution.png)
 
@@ -30,3 +30,29 @@ C Chart with Random Values highlighting how
 a combination of NumPy and the statistics
 module can be used to visualize a given dataset
 ```
+<hr/>
+
+## Module 2:Project Planning and Data Cleansing
+
+In machine learning, one of the first tasks that you need to perform is data cleansing of the available data sets. It requires examining the data carefully for any missing values,
+replacing with some valid values, and normalizing the data, just to name a few. 
+
+Scikit-learn is a Python library that implements the various types of machine learning algorithms, such as classification, regression, clustering, decision tree, and more. Pandas,
+or Panel Data Analysis, is a Python package providing fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and 
+intuitive.
+
+<hr/>
+
+### When Pandas loads a data set, it uses NaN to represent an empty field. One of the ways to handle this issue is to replace all NaNs in that specific column with the average value
+of that column.
+
+![Cleaning Rows with NaNs](images/data_cleansing.png)
+
+### The objective of normalization is to change the values of the numeric columns in the dataset to use a common scale without modifying the differences in the range of values. We ne need to normalize the data in order to avoid a large disparity in the scale of numbers. This could cause problems when using the data set to train the model.
+
+![Normalizing Columns](images/normalization.png)
+
+### Binarization will help us make our data binary. Using the Binarizer method, we convert based on the values to 0 or 1 depending on the threshold. Values greater than the threshold are mapped to 1, while those less than or equal are mapped to 0.
+
+
+![Binarization](images/ai_data_prep.png)
